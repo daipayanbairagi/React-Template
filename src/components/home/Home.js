@@ -7,8 +7,11 @@ function Home() {
 
   return (
     <>
-      <div className='container mt-4 rounded bg-primary p-2' style={{ height: '400px' }}>
-        <h2>Welcome to my site</h2>
+      <div className='container mt-4'>
+      <div className='rounded-1 bg-primary p-2' style={{ height: '400px' }}>
+      <h1 className='text-white text-center text-uppercase'>Welcome to my site</h1>
+      </div>
+      
       </div>
     </>
   );

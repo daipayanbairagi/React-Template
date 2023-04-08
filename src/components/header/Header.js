@@ -46,8 +46,8 @@ function Header() {
                                         Sevices
                                     </a>
                                     <ul class="dropdown-menu rounded-1 p-0 border-0 shadow" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="#/">Action</a></li>
-                                        <li><a class="dropdown-item" href="#/">Another action</a></li>
+                                        <li className='border-bottom'><a class="dropdown-item" href="#/">Action</a></li>
+                                        <li className='border-bottom'><a class="dropdown-item" href="#/">Another action</a></li>
                                         <li><a class="dropdown-item" href="#/">Something else here</a></li>
                                     </ul>
                                 </li>
