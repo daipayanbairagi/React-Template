@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from "react-router-dom";
+import { Link} from "react-router-dom";
 import './Header.css';
 import logo from './../../logo.png';
 function Header() {
@@ -9,8 +9,8 @@ function Header() {
                 <div className="topbar">
                     <div className="container">
                         <div class="d-flex bd-highlight">
-                            <div class="py-2 flex-grow-1 bd-highlight ">
-                                <i class="fa fa-phone me-2"></i>99xxxx88xx
+                            <div class="py-2 flex-grow-1 bd-highlight fw-bold text-primary">
+                                <i class="fa fa-phone me-2"></i>9967577770, 1800800121 
                             </div>
                             <div class="py-2 bd-highlight">
                                 <ul class="social-network">
@@ -29,6 +29,7 @@ function Header() {
                         <Link to="/" className="navbar-brand">
                             <img src={logo} className="" alt="logo" />
                             <span>Brand Logo</span>
+                            
                         </Link>
                         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -36,14 +37,14 @@ function Header() {
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <Link to="/" class="nav-link active" aria-current="page">Home</Link>
+                                    <Link to="/" class="nav-link active" aria-current="page" >Home</Link>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#/">About us</a>
+                                    <Link to="/about" class="nav-link">About us</Link>
                                 </li>
                                 <li class="nav-item dropdown fade-up">
                                     <a class="nav-link dropdown-toggle " href="#/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Sevices
+                                        Sevices 
                                     </a>
                                     <ul class="dropdown-menu rounded-1 p-0 border-0 shadow" aria-labelledby="navbarDropdown">
                                         <li className='border-bottom'><a class="dropdown-item" href="#/">Action</a></li>
