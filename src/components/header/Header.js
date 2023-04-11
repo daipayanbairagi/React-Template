@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import './Header.css';
 import logo from './../../logo.png';
 function Header() {
@@ -10,7 +10,7 @@ function Header() {
                     <div className="container">
                         <div class="d-flex bd-highlight">
                             <div class="py-2 flex-grow-1 bd-highlight fw-bold text-primary">
-                                <i class="fa fa-phone me-2"></i>9967577770, 1800800121 
+                                <i class="fa fa-phone me-2"></i>9967577770, 1800800121
                             </div>
                             <div class="py-2 bd-highlight">
                                 <ul class="social-network">
@@ -29,9 +29,9 @@ function Header() {
                         <Link to="/" className="navbar-brand">
                             <img src={logo} className="" alt="logo" />
                             <span>Brand Logo</span>
-                            
+
                         </Link>
-                        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler border-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -44,9 +44,9 @@ function Header() {
                                 </li>
                                 <li class="nav-item dropdown fade-up">
                                     <a class="nav-link dropdown-toggle " href="#/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Sevices 
+                                        Sevices
                                     </a>
-                                    <ul class="dropdown-menu rounded-1 p-0 border-0 shadow" aria-labelledby="navbarDropdown">
+                                    <ul class="dropdown-menu p-0 border-0 shadow" aria-labelledby="navbarDropdown">
                                         <li className='border-bottom'><a class="dropdown-item" href="#/">Action</a></li>
                                         <li className='border-bottom'><a class="dropdown-item" href="#/">Another action</a></li>
                                         <li><a class="dropdown-item" href="#/">Something else here</a></li>

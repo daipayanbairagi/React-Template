@@ -194,10 +194,10 @@ li {
 
 /* Mobile css */
 @media (max-width: 991.98px) {
-    ul li {
+    .navbar-collapse ul li {
         border-bottom: 1px solid #ffffff4d;
-    }
-
+        line-height: 2;
+}
   .navbar{
     background-color: #000;
   }
@@ -206,6 +206,7 @@ li {
         padding: 10px;
     
     }
+
 }
 
 
@@ -237,6 +238,7 @@ li {
       visibility: hidden;
       transition: .3s;
       margin-top: 0;
+      border-radius: 0 0 5px 5px;
     }
   
     .navbar .nav-item:hover .nav-link {
@@ -264,3 +266,6 @@ li {
   }
   
   /* nav link on hover end */
+
+
+  

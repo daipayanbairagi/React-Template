@@ -1,19 +1,19 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import './Home.css';
-import banner from './../../banner.jpg';
+import Imgslider from '../sldier/Imgslider';
+
 
 function Home() {
 
   return (
     <>
-      <div className='container mt-4'>
-      <div className='rounded-1 bg-primary p-5'>
-      <h1 className='text-white text-center text-uppercase'>Welcome to my site</h1>
-    
+      <div className='container mt-2'>
+       
+          <Imgslider />
+       
       </div>
-      
-      </div>
+
     </>
   );
 };

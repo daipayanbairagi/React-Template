@@ -1,0 +1,11 @@
+.slick-prev:before, .slick-next:before {
+  color: #030c9f;
+}
+
+.slider img {
+  height: 150px;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  padding: 0 10px 0 10px;
+ 
+}
