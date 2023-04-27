@@ -9,7 +9,7 @@ function Home() {
   return (
     <>
       <div className='container mt-2'>
-       
+       <h4>hello</h4>
           <Imgslider />
        
       </div>

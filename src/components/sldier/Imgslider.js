@@ -2,7 +2,11 @@
 import './Imgslider.css';
 import Slider from "react-slick";
 import slidimg from './disney-logo-vector-1.svg';
-export default function App() {
+
+
+export default function Imgslider() {
+ 
+
   const settings = {
     className: "center",
     centerMode: true,
@@ -39,40 +43,40 @@ export default function App() {
   };
   return (
     <>
-
       <Slider {...settings}>
         <div className='slider'>
-        <img src={slidimg} alt=''/>
+          <img src={slidimg} alt='' />
         </div>
         <div className='slider'>
-        <img src={slidimg} alt=''/>
+          <img src={slidimg} alt='' />
         </div>
         <div className='slider'>
-        <img src={slidimg} alt=''/>
+          <img src={slidimg} alt='' />
         </div>
         <div className='slider'>
-        <img src={slidimg} alt=''/>
+          <img src={slidimg} alt='' />
         </div>
         <div className='slider'>
-        <img src={slidimg} alt=''/>
+          <img src={slidimg} alt='' />
         </div>
         <div className='slider'>
-        <img src={slidimg} alt=''/>
+          <img src={slidimg} alt='' />
         </div>
         <div className='slider'>
-        <img src={slidimg} alt=''/>
+          <img src={slidimg} alt='' />
         </div>
         <div className='slider'>
-        <img src={slidimg} alt=''/>
+          <img src={slidimg} alt='' />
         </div>
         <div className='slider'>
-        <img src={slidimg} alt=''/>
+          <img src={slidimg} alt='' />
         </div>
         <div className='slider'>
-        <img src={slidimg} alt=''/>
+          <img src={slidimg} alt='' />
         </div>
       </Slider>
 
+     
     </>
   );
 }

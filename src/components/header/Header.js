@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from "react-router-dom";
+import { Link} from "react-router-dom";
 import './Header.css';
 import logo from './../../logo.png';
 function Header() {
@@ -63,9 +63,9 @@ function Header() {
                                 </li>
 
                             </ul>
-                            <span class="navbar-text btn btn-light text-sign fw-bold">
+                            <Link to="/registtration" class="navbar-text btn btn-light text-sign fw-bold">
                                 Sign up
-                            </span>
+                            </Link>
                         </div>
                     </div>
                 </nav>
